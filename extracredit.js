@@ -1,7 +1,7 @@
  /*
 <!--
 Name: Avnii Vaish
-Name of the file: hw3.js
+Name of the file: extracredit.js
 Date created: 09/20/2024
 Description: Homework: JS
 Date last updated: 12/01/2024
