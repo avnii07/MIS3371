@@ -1,0 +1,165 @@
+  /*
+<!--
+Name: Avnii Vaish
+Name of the file: extracredit.css
+Date created: 09/20/2024
+Last Updated: 11/25/2024
+Description: Homework: css
+-->
+*/
+header
+{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color:#183c24;
+    transition: background-color 0.4 easy-in-out;
+    z-index: 1000;
+}
+header.scrolled 
+{
+    background-color:#183c24;
+    opacity: 1.0;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    min-height: 100vh; /*make sure page of the veiwport*/
+    background-color: beige
+}
+
+form 
+{
+    flex-grow: 1;
+}
+h1
+{
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: "normal";
+    flex-grow: 1;
+    color: beige;
+}
+h2
+{
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: "normal";
+    flex-grow: 1;
+    color: #183c24;
+}
+p
+{
+    font-family: "Times New Roman", sans-serif;
+    font-weight: "normal";
+    flex-grow: 1;
+    color: beige;   
+}
+main
+{
+    text-align: "center";
+    font-family: "Times New Roman", sans-serif;
+    font-weight: "normal";
+    flex-grow: 1; 
+}
+.image
+{
+    text-align: left;
+}
+.td1
+{
+    text-align: "right";
+    font-family: "Times New Roman", sans-serif;
+    font-weight: "bold";
+}
+th
+{
+    text-align: center;
+    font-family:"Times New Roman", sans-serif;
+    font-weight: bold;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Ensures it starts at the left edge */
+    width: 100%;
+    background-color: #183c24;
+    height: 7.0rem;
+    box-sizing: border-box; /* Ensures padding/borders don't affect width */
+    padding: 0; /* Ensure no extra space is added */
+}
+
+#footer {
+    text-align: center; /* Changed from right to center */
+    font-family: "Times New Roman", sans-serif;
+    font-weight: normal;
+}
+
+label
+{
+
+    text-align: right;
+    font-family:"Times New Roman", sans-serif;
+    font-weight: normal;
+}
+input
+{
+    text-align: left;
+    font-family:"Times New Roman", sans-serif;
+    font-weight: normal;
+}
+textarea
+{
+    text-align: left;
+    font-family:"Times New Roman", sans-serif;
+    font-weight: normal;
+}
+#today
+{
+    text-align: left;
+    font-family:"Times New Roman", sans-serif;
+    font-weight: normal;
+}
+hr
+{
+    color: #183c24;
+}
+/*iframe styling*/
+.iframe-container {
+position: absolute;
+top:25%;
+right: 15px;
+width:25%;
+height: 100%;
+overflow: hidden;
+box-sizing: border-box;
+}
+
+.iframe-container iframe 
+{
+width:95%;
+height: 25%;
+border: 1px solid black;
+}
+
+#welcome1
+{
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+#welcome2
+{
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin-top: 20px;
+}
